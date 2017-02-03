@@ -1,0 +1,40 @@
+body {
+    background-color: #9f9f9f;
+    padding: 0;
+    margin: 0;
+}
+
+.main {
+    background-color: aqua;
+    height: 150px;
+    width: 50%;
+    margin: 0;
+    
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.center {
+    display: inline-block;
+    background-color: beige;
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    
+    position: relative;
+    top: 50%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+}
+
+.center p {
+    font-family: roboto;
+    color: #464640;
+    font-weight: 300;
+    letter-spacing: 1.25px;
+    
+    line-height: 2px;
+    
+}
